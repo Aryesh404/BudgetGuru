@@ -1,0 +1,224 @@
+/* General Reset */
+body, h4, table {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    margin: 20px 12px;
+    border-radius: 8px;
+    background-color: #0052cc;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Container Styling */
+#container {
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+    height: auto;
+}
+
+/* Left Column Styling */
+.left-column {
+    flex: 1;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center Column Styling */
+.center-column {
+    flex: 3;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Column Styling */
+.right-column {
+    flex: 1;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add Category Column Styling */
+.add-category-column {
+    flex: 1;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableHead th {
+    background-color: #0052cc;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Total Expense Styling */
+.total-expense {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Button Styling */
+.btn-sm {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-sm:hover {
+    background-color: #0041a3;
+}
+
+.btn-add-new {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-new:hover {
+    background-color: #0041a3;
+}
+
+.btn-shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Styling */
+.form-rounded {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+/* Cancel Button Styling */
+.cancel-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+    background-color: #bbbbbb;
+}
+
+/* New Expense Content Styling */
+.newExpenseContent {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination Styling */
+.pagination .page-link {
+    border-radius: 20px;
+    color: #0052cc;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid #0052cc;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0052cc;
+    color: white;
+    border: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0;
+}
+
+/* Pagination and Download Section */
+.pagenav-and-download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Download Button Styling */
+.btn-download {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #0041a3;
+}
